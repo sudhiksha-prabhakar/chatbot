@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.secret_key = "sudhiksha"
 
 # ✅ Configure your working Gemini API key
-genai.configure(api_key="AIzaSyA_u9hnrvBLvRmFwM6zGURIvkvOpWr1wG0")
+genai.configure(api_key="")
 
 chat_history = []
 
